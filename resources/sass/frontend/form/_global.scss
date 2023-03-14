@@ -31,7 +31,7 @@ input[type=text],
 input[type=email],
 input[type=number],
 input[type=password] {
-	padding: 6px 12px;
+	padding: 8px 12px;
 
 	@include bp-sm() {
 		padding: 10px 20px;
@@ -65,6 +65,10 @@ input[type=submit] {
 	width: auto;
 	padding: 9px 25px;
 	transition: background-color .12s ease-out, color .12s ease-out;
+
+	@include bp-sm() {
+		padding: 12px 25px;
+	}
 
 	&:hover {
 		background-color: lighten($color-primary, 10);

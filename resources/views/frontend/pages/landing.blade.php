@@ -62,7 +62,7 @@
           </div>
         </div>
         <div class="sm:grid sm:grid-cols-16 sm:grid-gap">
-          <div class="relative sm:col-span-8 md:col-span-7 md:col-span-7">
+          <div class="relative sm:col-span-8 md:col-span-7 mb-4x sm:mb-0">
             @if ($errors->has('firstname'))
               <div class="error-message is-floating">{{ $errors->first('firstname') }}</div>
             @else 
@@ -70,7 +70,7 @@
             @endif
             <input type="text" name="firstname" placeholder="Vorname *" data-rules="required">
           </div>
-          <div class="relative sm:col-span-8 md:col-span-7">
+          <div class="relative sm:col-span-8 md:col-span-7 mb-4x sm:mb-0">
             @if ($errors->has('name'))
               <div class="error-message is-floating">{{ $errors->first('name') }}</div>
             @else 
@@ -78,7 +78,7 @@
             @endif
             <input type="text" name="name" placeholder="Name *" data-rules="required">
           </div>
-          <div class="relative sm:col-span-8 md:col-span-7">
+          <div class="relative sm:col-span-8 md:col-span-7 mb-4x sm:mb-0">
             @if ($errors->has('email'))
               <div class="error-message is-floating">{{ $errors->first('email') }}</div>
             @else 
@@ -86,7 +86,7 @@
             @endif
             <input type="text" name="email" placeholder="E-Mail *" data-rules="required|valid_email">
           </div>
-          <div class="relative sm:col-span-8 md:col-span-7">
+          <div class="relative sm:col-span-8 md:col-span-7 mb-4x sm:mb-0">
             @if ($errors->has('phone'))
               <div class="error-message is-floating">{{ $errors->first('phone') }}</div>
             @else 
