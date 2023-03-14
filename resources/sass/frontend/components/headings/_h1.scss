@@ -1,0 +1,14 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: components/headings/h1
+ * -----------------------------------------------------------------------------
+ */
+
+h1 {
+  color: $color-secondary;
+  @include font-size($fs-lg);
+  @include font-aglet-light();
+  @include responsive-prop('margin-bottom', $space-sm);
+  text-transform: uppercase;
+  max-width: 720px;
+}

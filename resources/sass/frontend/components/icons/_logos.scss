@@ -1,0 +1,18 @@
+.logo-aupark-reinach {
+  display: block;
+  height: auto;
+  max-width: 100px;
+  width: 100%;
+
+  @include bp-sm() {
+    max-width: 145px;
+  }
+
+  @include bp-md() {
+    max-width: 165px;
+  }
+
+  @include bp-lg() {
+    max-width: 200px;
+  }
+}
