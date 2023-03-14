@@ -4,40 +4,93 @@
  * -----------------------------------------------------------------------------
  */
 
-.grid-2x1 {
-  .span {
-    margin-bottom: 25px;
-    position: relative;
-    &:last-child {
-      margin-bottom: 0;
-    }
-    @include bp-xs() {
-      margin-bottom: 0;
-    }
-  }  
+.grid {
+  display: grid;
 }
 
-.no-cssgrid {
-  .grid-2x1 {
-    @extend %clearfix;
-
-    .span {
-      float: left;
-      margin-right: 25px;
-      width: calc(50% - 13px);
-      &:nth-child(2n+2) {
-        margin-right: 0;
-      }
-    }
+.sm\:grid-gap {
+  @include bp-sm() {
+    grid-gap: 25px;
   }
 }
 
-.cssgrid {
-  .grid-2x1 {
-    @include bp-xs() {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 25px;
-    }
+.sm\:grid {
+  @include bp-sm() {
+    display: grid;
   }
+}
+
+.sm\:grid-cols-16 {
+  @include bp-sm() {
+    grid-template-columns: repeat(16, minmax(0, 1fr));
+  }
+}
+
+[class^='col-span'], 
+[class*=' col-span'],
+[class^='sm:col-span'] {
+  margin-bottom: 15px;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+  @include bp-sm() {
+    margin-bottom: 0!important;
+  }
+}
+
+@include bp-sm() {
+  .sm\:col-span-1	{ grid-column: span 1 / span 1; }
+  .sm\:col-span-2	{ grid-column: span 2 / span 2; }
+  .sm\:col-span-3	{ grid-column: span 3 / span 3; }
+  .sm\:col-span-4	{ grid-column: span 4 / span 4; }
+  .sm\:col-span-5	{ grid-column: span 5 / span 5; }
+  .sm\:col-span-6	{ grid-column: span 6 / span 6; }
+  .sm\:col-span-7	{ grid-column: span 7 / span 7; }
+  .sm\:col-span-8	{ grid-column: span 8 / span 8; }
+  .sm\:col-span-9	{ grid-column: span 9 / span 9; }
+  .sm\:col-span-10 { grid-column: span 10 / span 10; }
+  .sm\:col-span-11 { grid-column: span 11 / span 11; }
+  .sm\:col-span-12 { grid-column: span 12 / span 12; }
+  .sm\:col-span-13 { grid-column: span 13 / span 13; }
+  .sm\:col-span-14 { grid-column: span 14 / span 14; }
+  .sm\:col-span-15 { grid-column: span 15 / span 15; }
+  .sm\:col-span-16 { grid-column: span 16 / span 16; }
+}
+
+@include bp-md() {
+  .md\:col-span-1	{ grid-column: span 1 / span 1; }
+  .md\:col-span-2	{ grid-column: span 2 / span 2; }
+  .md\:col-span-3	{ grid-column: span 3 / span 3; }
+  .md\:col-span-4	{ grid-column: span 4 / span 4; }
+  .md\:col-span-5	{ grid-column: span 5 / span 5; }
+  .md\:col-span-6	{ grid-column: span 6 / span 6; }
+  .md\:col-span-7	{ grid-column: span 7 / span 7; }
+  .md\:col-span-8	{ grid-column: span 8 / span 8; }
+  .md\:col-span-9	{ grid-column: span 9 / span 9; }
+  .md\:col-span-10 { grid-column: span 10 / span 10; }
+  .md\:col-span-11 { grid-column: span 11 / span 11; }
+  .md\:col-span-12 { grid-column: span 12 / span 12; }
+  .md\:col-span-13 { grid-column: span 13 / span 13; }
+  .md\:col-span-14 { grid-column: span 14 / span 14; }
+  .md\:col-span-15 { grid-column: span 15 / span 15; }
+  .md\:col-span-16 { grid-column: span 16 / span 16; }
+}
+
+@include bp-lg() {
+  .lg\:col-span-1	{ grid-column: span 1 / span 1; }
+  .lg\:col-span-2	{ grid-column: span 2 / span 2; }
+  .lg\:col-span-3	{ grid-column: span 3 / span 3; }
+  .lg\:col-span-4	{ grid-column: span 4 / span 4; }
+  .lg\:col-span-5	{ grid-column: span 5 / span 5; }
+  .lg\:col-span-6	{ grid-column: span 6 / span 6; }
+  .lg\:col-span-7	{ grid-column: span 7 / span 7; }
+  .lg\:col-span-8	{ grid-column: span 8 / span 8; }
+  .lg\:col-span-9	{ grid-column: span 9 / span 9; }
+  .lg\:col-span-10 { grid-column: span 10 / span 10; }
+  .lg\:col-span-11 { grid-column: span 11 / span 11; }
+  .lg\:col-span-12 { grid-column: span 12 / span 12; }
+  .lg\:col-span-13 { grid-column: span 13 / span 13; }
+  .lg\:col-span-14 { grid-column: span 14 / span 14; }
+  .lg\:col-span-15 { grid-column: span 15 / span 15; }
+  .lg\:col-span-16 { grid-column: span 16 / span 16; }
 }

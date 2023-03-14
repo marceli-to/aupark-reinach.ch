@@ -1,0 +1,22 @@
+
+.swiper {
+  height: auto;
+  width: 100%;
+
+  img {
+    aspect-ratio: 16 / 10;
+    display: block;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+    @include bp-sm() {
+      aspect-ratio: 16 / 8;
+    }
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: $color-white !important
+}

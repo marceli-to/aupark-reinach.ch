@@ -23,4 +23,6 @@ require('./modules/maps.js');
 // Alert
 require('./modules/alert.js');
 
+require('./modules/swiper.js');
+
 

@@ -6,9 +6,13 @@
 </div>
 @endif
 
-<figure class="visual-bg">
+<x-swiper>
+  <x-swiper.slide :image="'visual-aupark-reinach-1.jpg'" :alt="''" />
+  <x-swiper.slide :image="'visual-aupark-reinach-2.jpg'" :alt="''" />
+  <x-swiper.slide :image="'visual-aupark-reinach-3.jpg'" :alt="''" />
+  <x-swiper.slide :image="'visual-aupark-reinach-4.jpg'" :alt="''" />
+</x-swiper>
 
-</figure>
 <section class="page-section is-dark">
   <div class="page-inner">
     <article>
@@ -58,8 +62,8 @@
             </div>
           </div>
         </div>
-        <div class="grid-2x1">
-          <div class="span">
+        <div class="sm:grid sm:grid-cols-16 sm:grid-gap">
+          <div class="relative sm:col-span-8">
             @if ($errors->has('firstname'))
               <div class="error-message is-floating">{{ $errors->first('firstname') }}</div>
             @else 
@@ -67,7 +71,7 @@
             @endif
             <input type="text" name="firstname" placeholder="Vorname *" data-rules="required">
           </div>
-          <div class="span">
+          <div class="relative sm:col-span-8">
             @if ($errors->has('name'))
               <div class="error-message is-floating">{{ $errors->first('name') }}</div>
             @else 
@@ -75,7 +79,7 @@
             @endif
             <input type="text" name="name" placeholder="Name *" data-rules="required">
           </div>
-          <div class="span">
+          <div class="relative sm:col-span-8">
             @if ($errors->has('email'))
               <div class="error-message is-floating">{{ $errors->first('email') }}</div>
             @else 
@@ -83,7 +87,7 @@
             @endif
             <input type="text" name="email" placeholder="E-Mail *" data-rules="required|valid_email">
           </div>
-          <div class="span">
+          <div class="relative sm:col-span-8">
             @if ($errors->has('phone'))
               <div class="error-message is-floating">{{ $errors->first('phone') }}</div>
             @else 
@@ -91,7 +95,7 @@
             @endif
             <input type="text" name="phone" placeholder="Telefon *" data-rules="required">
           </div>
-          <div class="span">
+          <div class="sm:col-span-8">
             <div class="form-button">
               <input type="submit" value="Absenden" class="js-btn-submit">
             </div>
