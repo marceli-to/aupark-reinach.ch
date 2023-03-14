@@ -14,7 +14,7 @@ form.contact-form {
 
   label {
     color: $color-white;
-    @include font-size($fs-sm);
+    @include font-size($fs-md);
   }
 
   input[type=checkbox] {
@@ -26,115 +26,80 @@ form.contact-form {
       top: -2px;
     }
   }
-
-  .form-controls {
-    @include responsive-prop('margin-bottom', $space-sm);
-  }
-
-  .form-input {
-    max-width: 900px;
-    @include bp-lg() {
-      max-width: 1100px;
-    }
-
-    .span {
-      position: relative;
-    }
-  }
 }
 
-.cssgrid {
+// .cssgrid {
 
-  .form-controls__grid {
-    display: grid;
-    margin-bottom: 15px;
-    margin-top: 10px;
+//   .form-controls__grid {
+//     margin-bottom: 15px;
+//     margin-top: 10px;
 
-    .form-control {
-      margin-bottom: 5px;
-    }
+//     .form-control {
+//       align-items: center;
+//       display: flex;
+//       margin-bottom: 5px;
+//     }
 
-    .span {
+//     @include bp-sm() {
+//       grid-template-columns: repeat(2, 300px);
+//       grid-column-gap: 25px;
+//       grid-row-gap: 0;
+//     }
 
-      @include bp-sm() {
-        &.sm\:order-1 {
-          order: 1; 
-        }
-  
-        &.sm\:order-2 {
-          order: 2; 
-        }
-  
-        &.sm\:order-3 {
-          order: 3;
-        }
-        
-        &.sm\:order-4 {
-          order: 4;
-        }
-      }
-    }
+//     @include bp-sm() {
+//       grid-template-columns: repeat(2, 345px);
+//     }
+//   }
 
-    @include bp-sm() {
-      grid-template-columns: repeat(2, 300px);
-      grid-column-gap: 25px;
-      grid-row-gap: 0;
-    }
-
-    @include bp-sm() {
-      grid-template-columns: repeat(2, 345px);
-    }
-  }
-
-  .form-input__grid {
-    display: grid;
-    margin-bottom: 20px;
-    max-width: 700px;
+//   .form-input__grid {
+//     display: grid;
+//     margin-bottom: 20px;
+//     max-width: 700px;
     
-    .span {
-      margin-bottom: 20px;
+//     .span {
+//       margin-bottom: 20px;
 
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
-  }
-}
+//       &:last-child {
+//         margin-bottom: 0;
+//       }
+//     }
+//   }
+// }
 
-.no-cssgrid {
+// .no-cssgrid {
 
-  .form-controls__grid {
-    @extend %clearfix;
-    .span {
+//   .form-controls__grid {
+//     @extend %clearfix;
+//     .span {
 
-      @include bp-sm() {
-        float: left;
-        width: 160px;
-      }
+//       @include bp-sm() {
+//         float: left;
+//         width: 160px;
+//       }
 
-      @include bp-md() {
-        width: 180px;
-      }
-    }
-  }
+//       @include bp-md() {
+//         width: 180px;
+//       }
+//     }
+//   }
 
-  // .form-input__grid {
-  //   @extend %clearfix;
+//   // .form-input__grid {
+//   //   @extend %clearfix;
 
-  //   .span {
-  //     @include bp-sm() {
-  //       float: left;
-  //       margin-bottom: 20px;
-  //       margin-right: 20px;
-  //       width: calc(50% - 10px);
+//   //   .span {
+//   //     @include bp-sm() {
+//   //       float: left;
+//   //       margin-bottom: 20px;
+//   //       margin-right: 20px;
+//   //       width: calc(50% - 10px);
 
-  //       &:nth-child(2n+2) {
-  //         margin-right: 0;
-  //       }
-  //     }
-  //   }
-  // }
-}
+//   //       &:nth-child(2n+2) {
+//   //         margin-right: 0;
+//   //       }
+//   //     }
+//   //   }
+//   // }
+// }
 
 form.apartment-form {
   margin-top: 30px;

@@ -14,6 +14,12 @@
   }
 }
 
+.sm\:grid-column-gap {
+  @include bp-sm() {
+    grid-column-gap: 25px;
+  }
+}
+
 .sm\:grid {
   @include bp-sm() {
     display: grid;
@@ -23,18 +29,6 @@
 .sm\:grid-cols-16 {
   @include bp-sm() {
     grid-template-columns: repeat(16, minmax(0, 1fr));
-  }
-}
-
-[class^='col-span'], 
-[class*=' col-span'],
-[class^='sm:col-span'] {
-  margin-bottom: 15px;
-  &:last-of-type {
-    margin-bottom: 0;
-  }
-  @include bp-sm() {
-    margin-bottom: 0!important;
   }
 }
 
@@ -93,4 +87,23 @@
   .lg\:col-span-14 { grid-column: span 14 / span 14; }
   .lg\:col-span-15 { grid-column: span 15 / span 15; }
   .lg\:col-span-16 { grid-column: span 16 / span 16; }
+}
+
+// Order
+@include bp-sm() {
+  .sm\:order-1 {
+    order: 1; 
+  }
+
+  .sm\:order-2 {
+    order: 2; 
+  }
+
+  .sm\:order-3 {
+    order: 3;
+  }
+  
+  .sm\:order-4 {
+    order: 4;
+  }
 }

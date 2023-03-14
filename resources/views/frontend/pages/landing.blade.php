@@ -30,32 +30,31 @@
       <p>Ich interessiere mich für folgende Wohnung (bitte auswählen):</p>
       <form method="POST" action="{{ route('page_landing_subscribe') }}" class="contact-form js-validate">
         @csrf
-
         @if ($errors->has('interest'))
           <div class="error-message">{{ $errors->first('interest') }}</div>
         @else
           <div class="error-message" style="display:none">Bitte mind. 1 Option auswählen</div>
         @endif
-        <div class="form-controls__grid">
-          <div class="span sm:order-1">
+        <div class="sm:grid sm:grid-cols-16 sm:grid-column-gap mb-5x">
+          <div class="sm:col-span-8 md:col-span-7 sm:order-1 mb-2x md:mb-2x">
             <div class="form-control">
               <input type="checkbox" name="interest[]" value="2.5 Zi" id="interest-2.5">
               <label for="interest-2.5">2.5-Zimmerwohnung (Seniorenwohnung)</label>
             </div>
           </div>
-          <div class="span sm:order-3">
+          <div class="sm:col-span-8 md:col-span-7 sm:order-3 mb-2x md:mb-2x">
             <div class="form-control">
               <input type="checkbox" name="interest[]" value="3.5 Zi" id="interest-3.5">
               <label for="interest-3.5">3.5-Zimmerwohnung (Seniorenwohnung)</label>
             </div>
           </div>
-          <div class="span sm:order-2">
+          <div class="sm:col-span-8 md:col-span-7 sm:order-2 mb-2x md:mb-2x">
             <div class="form-control">
               <input type="checkbox" name="interest[]" value="4.5 Zi" id="interest-4.5">
               <label for="interest-4.5">4.5-Zimmerwohnung</label>
             </div>
           </div>
-          <div class="span sm:order-4">
+          <div class="sm:col-span-8 md:col-span-7 sm:order-4 mb-2x md:mb-3x">
             <div class="form-control">
               <input type="checkbox" name="interest[]" value="5.5 Zi" id="interest-5.5">
               <label for="interest-5.5">5.5-Zimmerwohnung</label>
@@ -63,7 +62,7 @@
           </div>
         </div>
         <div class="sm:grid sm:grid-cols-16 sm:grid-gap">
-          <div class="relative sm:col-span-8">
+          <div class="relative sm:col-span-8 md:col-span-7 md:col-span-7">
             @if ($errors->has('firstname'))
               <div class="error-message is-floating">{{ $errors->first('firstname') }}</div>
             @else 
@@ -71,7 +70,7 @@
             @endif
             <input type="text" name="firstname" placeholder="Vorname *" data-rules="required">
           </div>
-          <div class="relative sm:col-span-8">
+          <div class="relative sm:col-span-8 md:col-span-7">
             @if ($errors->has('name'))
               <div class="error-message is-floating">{{ $errors->first('name') }}</div>
             @else 
@@ -79,7 +78,7 @@
             @endif
             <input type="text" name="name" placeholder="Name *" data-rules="required">
           </div>
-          <div class="relative sm:col-span-8">
+          <div class="relative sm:col-span-8 md:col-span-7">
             @if ($errors->has('email'))
               <div class="error-message is-floating">{{ $errors->first('email') }}</div>
             @else 
@@ -87,7 +86,7 @@
             @endif
             <input type="text" name="email" placeholder="E-Mail *" data-rules="required|valid_email">
           </div>
-          <div class="relative sm:col-span-8">
+          <div class="relative sm:col-span-8 md:col-span-7">
             @if ($errors->has('phone'))
               <div class="error-message is-floating">{{ $errors->first('phone') }}</div>
             @else 
