@@ -2,7 +2,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibWFyY2VsaXRvb29vIiwiYSI6ImNrMHNsdmhwdjAzcjIzZ
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/marcelitoooo/ck55dr00808kn1cnxip8mz459',
-    center: [8.502033369353583,47.17684459216781],
+    center: [7.598589204108141,47.49374073675234], 
     zoom: 13
 });
 map.addControl(new mapboxgl.NavigationControl());
@@ -14,11 +14,11 @@ var geojson = {
     type: 'Feature',
     geometry: {
       type: 'Point',
-      coordinates: [8.502033369353583,47.17684459216781],
+      coordinates: [7.598589204108141,47.49374073675234],
     },
     properties: {
-      title: 'Austrasse Zürich',
-      description: 'Zürich'
+      title: 'Aupark Reinach',
+      description: 'Aupark Reinach'
     }
   }]
 };
