@@ -19,7 +19,6 @@
 <meta name="theme-color" content="#ffffff">
 <meta name="csrf-token" content="{{ csrf_token() }}" />
 <meta name="format-detection" content="telephone=no">
-{{-- <link rel="stylesheet" href="https://use.typekit.net/yfj1ptz.css"> --}}
 <link href="{{ mix('assets/css/app.css') }}" type="text/css" rel="stylesheet" />
 <script src="{{ asset('assets/js/modernizr.js') }}"></script>
 </head>

@@ -7,7 +7,7 @@
 h1 {
   color: $color-secondary;
   @include font-size($fs-lg);
-  @include font-aglet-regular();
+  @include font-aglet-slab();
   @include responsive-prop('margin-bottom', $space-sm);
   text-transform: uppercase;
   max-width: 720px;

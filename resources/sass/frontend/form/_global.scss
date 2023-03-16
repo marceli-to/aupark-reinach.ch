@@ -58,7 +58,7 @@ input[type=submit] {
 	border-radius: 2px;
 	color: $color-white;
 	display: inline-block;
-	@include font-aglet-regular();
+	@include font-aglet-slab();
 	min-width: 125px;
 	text-align: center;
 	text-transform: uppercase;

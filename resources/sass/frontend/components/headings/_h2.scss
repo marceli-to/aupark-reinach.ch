@@ -5,7 +5,7 @@
  */
 
 h2 {
-  @include font-aglet-regular();
+  @include font-aglet-slab();
   @include font-size($fs-md);
   text-transform: uppercase;
 }

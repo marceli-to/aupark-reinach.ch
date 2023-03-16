@@ -29,7 +29,6 @@ footer.site-footer {
 
     h3 {
       color: $color-primary;
-      @include font-aglet-regular();
       @include font-size($fs-sm);
     }
 
