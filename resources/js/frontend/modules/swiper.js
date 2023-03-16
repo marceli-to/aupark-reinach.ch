@@ -1,10 +1,11 @@
-import Swiper, { Navigation } from 'swiper';
-
+import Swiper, { Navigation, Autoplay } from 'swiper';
 const swiper = new Swiper('.swiper', {
-  modules: [Navigation],
+  modules: [Navigation, Autoplay],
   direction: 'horizontal',
   loop: true,
-  spaceBetween: 16,
+  autoplay: {
+    delay: 3000,
+  },
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',

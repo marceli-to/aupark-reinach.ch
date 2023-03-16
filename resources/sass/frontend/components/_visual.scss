@@ -5,16 +5,16 @@
  *
  */
 
-figure.visual {
-  display: block;
-  height: auto;
-  max-height: 90vh;
-  width: 100%;
+// figure.visual {
+//   display: block;
+//   height: auto;
+//   max-height: 90vh;
+//   width: 100%;
 
-  img {
-    @extend %is-contain;
-  }
-}
+//   img {
+//     @extend %is-contain;
+//   }
+// }
 
 // @include bp-xxs() {
 //   figure.visual-bg {
