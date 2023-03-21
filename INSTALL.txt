@@ -13,3 +13,4 @@ ssh:
 
 ssh aupark-reinach@aupark-reinach.ch -p 2121
 zP*4632dnDwR
+
