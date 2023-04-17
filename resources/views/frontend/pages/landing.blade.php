@@ -7,10 +7,10 @@
 @endif
 
 <x-swiper>
-  <x-swiper.slide :image="'aupark-reinach-visualisierung-1.jpg'" :alt="''" />
-  <x-swiper.slide :image="'aupark-reinach-visualisierung-2.jpg'" :alt="''" />
-  <x-swiper.slide :image="'aupark-reinach-visualisierung-3.jpg'" :alt="''" />
-  <x-swiper.slide :image="'aupark-reinach-visualisierung-4.jpg'" :alt="''" />
+  <x-swiper.slide :image="'aupark-reinach-visualisierung-1'" :alt="''" />
+  <x-swiper.slide :image="'aupark-reinach-visualisierung-2'" :alt="''" />
+  <x-swiper.slide :image="'aupark-reinach-visualisierung-3'" :alt="''" />
+  <x-swiper.slide :image="'aupark-reinach-visualisierung-4'" :alt="''" />
 </x-swiper>
 
 <section class="page-section is-dark">
