@@ -11,7 +11,7 @@ return [
   |
   */
 
-  'title' => 'Wohnen in Reinach, Baselland',
+  'title' => 'Wohnen im Aupark Reinach – Baselland',
 
   /*
   |--------------------------------------------------------------------------
