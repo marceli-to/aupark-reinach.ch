@@ -108,8 +108,6 @@
               </label>
             </div>
           </div>
-
-
           <div class="sm:col-span-8">
             <div class="form-button">
               <input type="submit" value="Absenden" class="js-btn-submit">
