@@ -22,6 +22,6 @@ return [
   |
   */
 
-  'description' => 'An der Aumattstrasse 70/72 wird per Ende 2024 / per Anfang 2025 eine neue, lebendige und generationenübergreifende Wohnüberbauung realisiert.',   
+  'description' => 'An der Aumattstrasse 70/72 wird per Frühsommer 2025 eine neue, lebendige und generationenübergreifende Wohnüberbauung realisiert.',   
 
 ];

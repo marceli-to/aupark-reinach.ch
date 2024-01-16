@@ -18,7 +18,7 @@
     <article>
       <h1>Wohnen in Reinach, Baselland</h1>
       <h2>Erstvermietung</h2>
-      <p>An der Aumattstrasse 70/72 wird per Ende 2024 / per Anfang 2025 eine neue, lebendige und generationenübergreifende Wohnüberbauung realisiert. Es entstehen moderne 4.5- und 5.5-Zimmerwohnungen, ideal für Paare oder Familien sowie altersgerechte 2.5- und 3.5-Zimmerwohnungen, bei welchen auch Zusatzleistungen (z. B. Betreuung oder Service-Dienstleistungen) von dem benachbarten Seniorenzentrum Aumatt bezogen werden können.</p>
+      <p>An der Aumattstrasse 70/72 wird per Frühsommer 2025 eine neue, lebendige und generationenübergreifende Wohnüberbauung realisiert. Es entstehen moderne 4.5- und 5.5-Zimmerwohnungen, ideal für Paare oder Familien sowie altersgerechte 2.5- und 3.5-Zimmerwohnungen, bei welchen auch Zusatzleistungen (z. B. Betreuung oder Service-Dienstleistungen) von dem benachbarten Seniorenzentrum Aumatt bezogen werden können.</p>
       <p>Interessiert? Gerne senden wir Ihnen weitere Informationen, sobald die Vermietung startet. Bitte füllen Sie dazu das Kontaktformular aus.</p>
     </article>
   </div>
