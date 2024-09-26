@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-eb6046f5.css",
+    "file": "assets/app-f472fa40.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
@@ -13,7 +13,7 @@
     "src": "resources/icons/marker.svg"
   },
   "resources/js/app.js": {
-    "file": "assets/app-e9694e00.js",
+    "file": "assets/app-b82408c6.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   }
