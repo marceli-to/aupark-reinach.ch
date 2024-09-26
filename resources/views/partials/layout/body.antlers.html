@@ -1,0 +1,6 @@
+<body class="antialiased font-aglet-slab text-pine text-base lg:text-md leading-[1.45] flex min-h-screen flex-col {{ is_homepage ? 'bg-pine' : 'bg-white' }}" x-data="{ menu: false }">
+  {{ partial:layout/breakpoints }}
+  {{ slot:header }}
+  {{ slot }}
+  {{ slot:footer }}
+</body>

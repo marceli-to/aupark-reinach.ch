@@ -1,0 +1,87 @@
+{{ partial:layout/section class="bg-white" }}
+  {{ partial:layout/inner }}
+    {{ partial:components/headings/h1 title="Ausbau" }}
+    {{ partial:layout/grid }}
+      {{ partial:layout/span }}
+      
+        {{ partial:components/headings/h3 title="Bodenbeläge" }}
+        <ul class="text-bronze">
+          <li>Küche, Wohnen, Essen, Schlafzimmer inkl. Ankleide sowie Korridor: Eichenparkett, matt versiegelt, Schiffsboden verlegt</li>
+          <li>Nasszellen: Feinsteinzeugplatten beige</li>
+        </ul>
+        
+        {{ partial:components/headings/h3 title="Wände/Decken" }}
+        <ul class="text-bronze">
+          <li>Beton mit Verputz weiss gestrichen</li>
+          <li>Nasszellen keramische Wandplatten beige</li>
+        </ul>
+        
+        {{ partial:components/headings/h3 title="Küche" }}
+        <ul class="text-bronze" >
+          <li>Einbauten Kunstarzfronten Farbton «Taupe»</li>
+          <li>Küchenabdeckung Naturstein London Black</li>
+          <li>LED-Einbauspots in Unterboden Oberbau</li>
+          <li>Elektrogeräte der Marke AEG: Einbaubackofen, Geschirrspüler, Glaskeramik, Kühl- und Gefriergerät, Duntstabzugshaube oder integriert im Kochfeld</li>
+        </ul>
+        {{ partial:components/headings/h3 title="Badezimmer" }}
+        <ul class="text-bronze">
+          <li>Weisse Keramik Sanitärapparte</li>
+          <li>  Spiegelschrank</li>
+          <li>Badewanne und/oder Dusche je nach Grundriss</li>
+        </ul>
+        {{ partial:components/headings/h3 title="Aussenflächen" }}
+        <ul class="text-bronze">
+          <li>Erdgeschosswohnungen mit Sitzplätzen</li>
+          <li>Eckbalkone im Obergeschoss</li>
+          <li>Attikawohnungen mit Terrassen</li>
+          <li>Markisen elektrisch</li>
+        </ul>
+
+      {{ /partial:layout/span }}
+
+      {{ partial:layout/span }}
+      {{ partial:components/headings/h3 title="Elektroanlagen" }}
+      <ul class="text-bronze">
+        <li>Gegensprechanlage sowie elektrische Türöffnung</li>
+        <li>FTTH erschlossen, Anschlussdose OTO</li>
+        <li>Photovoltaikanlage</li>
+      </ul>
+      {{ partial:components/headings/h3 title="Heizungsanlage" }}
+      <ul class="text-bronze">
+        <li>Fernwärmeanschluss, Verteilung mittels Fussbodenheizung inklusive Raumthermostat</li>
+      </ul>
+      {{ partial:components/headings/h3 title="Liftanlage" }}
+      <ul class="text-bronze">
+        <li>Pro Haus ein Personenaufzug</li>
+      </ul>
+      {{ partial:components/headings/h3 title="Allgemeinräume" }}
+      <ul class="text-bronze">
+        <li>Private Veloboxen mit Ladestationen für E-Bikes</li>
+        <li>Veloräume in der Tiefgarage</li>
+        <li>Trocknungsräume mit Secomat</li>
+      </ul>
+      {{ partial:components/headings/h3 title="Parkierung" }} 
+      <ul class="text-bronze">
+        <li>49 Autoeinstellplätze (Grundinstallation Ladestation vorhanden) sowie 4 Motorradplätze</li>
+      </ul>
+      {{ partial:components/headings/h3 title="Umgebung" }}
+      <ul class="text-bronze">
+        <li>Begrünte Aussenanlage mit Aufenthalts- und Spielplätzen, ungedeckte Veloabstellplätze bei Hauseingang B</li>
+        <li>Besucherparkplätze mit Ladestationen</li>
+      </ul>
+      <div class="text-bronze mt-15">* Änderungen vorbehalten.</div>
+      {{ /partial:layout/span }}
+
+      {{ partial:layout/span class="mt-15 lg:mt-30 col-span-full" }}
+        <a 
+          href="/assets/downloads/aupark_kurzbaubeschrieb.pdf" 
+          target="_blank" 
+          title="Kurzbaubeschrieb"
+          class="bg-pine text-white px-10 py-6 lg:px-12 lg:py-8 rounded-sm uppercase tracking-wider inline-flex items-center w-auto justify-center hover:bg-bronze hover:text-white transition-all">
+          <span class="block leading-none">Kurzbaubeschrieb</span>
+        </a>
+      {{ /partial:layout/span }}
+
+    {{ /partial:layout/grid }}
+  {{ /partial:layout/inner }}
+{{ /partial:layout/section }}
