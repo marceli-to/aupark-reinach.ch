@@ -10,7 +10,7 @@
       <template v-if="errors.interest">
         <form-error :error="errors.interest" classes="!relative !inline-block !w-auto !mb-10" />
       </template>
-      <div class="flex flex-wrap gap-20 relative">
+      <div class="flex flex-wrap gap-5 md:gap-20 relative">
         <div class="flex flex-col gap-5">
           <form-checkbox
             :id="'interest-2-5-zimmer'"

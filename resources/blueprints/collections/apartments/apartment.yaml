@@ -1,0 +1,122 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+              display: Nummer
+              instructions_position: above
+              listable: hidden
+              visibility: visible
+              replicator_preview: true
+              input_type: text
+              antlers: false
+              hide_display: false
+          -
+            handle: floor
+            field:
+              options:
+                eg: EG
+                1og: '1. OG'
+                2og: '2. OG'
+                3og: '3. OG'
+              taggable: false
+              push_tags: false
+              multiple: false
+              clearable: false
+              searchable: true
+              cast_booleans: false
+              default: eg
+              type: select
+              display: Etage
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: rooms
+            field:
+              options:
+                '2.5': 2.5-Zimmerwohnung
+                '3.5': 3.5-Zimmerwohnung
+                '4.5': 4.5-Zimmerwohnung
+                '5.5': 5.5-Zimmerwohnung
+              taggable: false
+              push_tags: false
+              multiple: false
+              clearable: false
+              searchable: true
+              cast_booleans: false
+              default: '2.5'
+              type: select
+              display: Zimmer
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: area
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Nettowohnfläche
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: rent
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Mietzins
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: state
+            field:
+              options:
+                available: frei
+                reserved: reserviert
+                rented: vermietet
+              taggable: false
+              push_tags: false
+              multiple: false
+              clearable: false
+              searchable: true
+              cast_booleans: false
+              default: available
+              type: select
+              display: Status
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+title: Mietwohnungen

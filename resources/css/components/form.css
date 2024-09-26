@@ -5,7 +5,7 @@ input[type=date],
 input[type=number],
 textarea,
 select {
-  @apply w-full text-pine p-5 !ring-0 focus:outline-none focus:!ring-0 focus:text-pine placeholder:text-pine
+  @apply w-full text-pine p-10 !ring-0 focus:outline-none focus:!ring-0 focus:text-pine placeholder:text-pine
 }
 
 input[type=date] {
