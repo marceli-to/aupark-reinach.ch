@@ -36,6 +36,11 @@ main {
   @apply mb-5 text-md lg:text-xl
 }
 
+.imprint strong,
+.privacy strong {
+  @apply font-aglet-slab text-bronze font-normal;
+}
+
 .privacy p {
   @apply max-w-3xl;
 }
