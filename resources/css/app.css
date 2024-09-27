@@ -23,7 +23,7 @@ main {
 .privacy h1,
 .imprint h2,
 .privacy h2 {
-  @apply uppercase text-xl lg:text-3xl text-mocha mb-10
+  @apply uppercase text-xl lg:text-3xl text-bronze mb-10
 }
 
 .imprint h1,
@@ -81,7 +81,7 @@ sup {
 }
 
 .fancybox__backdrop {
-  @apply !bg-mocha bg-opacity-90;
+  @apply !bg-bronze bg-opacity-90;
 }
 
 .fancybox__toolbar {

@@ -19,13 +19,12 @@ export default {
       },
 
       colors: {
-        'pewter': '#626362',
-        'mocha': '#876853',
-        'sand': '#9f8675',
-
         'pine': '#204E2F',
         'almond': '#EFE7D9',
         'bronze': '#896425',
+        'seaglass': '#C6D2CA',
+        'sage': '#8FA697',
+        'crimson': '#CC4A5A',
       },
 
       fontFamily: {

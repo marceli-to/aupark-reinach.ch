@@ -93,7 +93,7 @@ tabs:
               options:
                 available: frei
                 reserved: reserviert
-                rented: vermietet
+                taken: vermietet
               taggable: false
               push_tags: false
               multiple: false
@@ -119,4 +119,13 @@ tabs:
               type: slug
               localizable: true
               validate: 'max:200'
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - apartments_service
+              max_items: 1
+              listable: false
+              localizable: true
 title: 'Wohnen mit Service'

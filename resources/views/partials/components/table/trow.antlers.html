@@ -1,7 +1,7 @@
 <tr 
   {{ if filterable }}
     data-object
-    data-object-number="{{ number }}"
+    data-object-number="{{ slug | replace('-', '') }}"
     data-object-state="{{ state }}"
     data-object-floor="{{ floor }}"
     data-object-rooms="{{ rooms }}"

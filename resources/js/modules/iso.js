@@ -76,7 +76,7 @@ const Iso = (function() {
 
       // add class '.is-active.is-available' to iso item if it exists
       if (!iso) return;
-      iso.classList.add('is-active', objectData.objectState === 'free' ? 'is-available' : 'is-taken');
+      iso.classList.add('is-active', objectData.objectState === 'available' ? 'is-available' : 'is-taken');
 
       if (moveSiblings) {
         // Get the parent <g> element for the object
@@ -99,7 +99,7 @@ const Iso = (function() {
     if (!object) return;
     const objectData = object.dataset;
     object.classList.add('is-active');
-    iso.classList.add('is-active', objectData.objectState === 'free' ? 'is-available' : 'is-taken');
+    iso.classList.add('is-active', objectData.objectState === 'available' ? 'is-available' : 'is-taken');
   };
 
   const clearIso = function() {
