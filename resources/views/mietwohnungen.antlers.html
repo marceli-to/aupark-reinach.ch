@@ -110,7 +110,7 @@
 
           {{ partial:components/table/table class="mb-40 lg:mb-80" }}
 
-          {{ partial:components/table/thead }}
+          {{ partial:components/table/thead heading_rent="Brutto MZ/MT" }}
           
             {{ apartments }}
               {{ partial:components/table/trow filterable="true" number="{{ title }}" state="{{ state }}" rooms="{{ rooms }}" floor="{{ floor }}" }}

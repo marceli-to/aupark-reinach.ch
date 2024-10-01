@@ -17,7 +17,7 @@
         <ul>
           <li>Ihre Wohnung inkl. Nebenräume sowie Nebenkosten wie Heizung, Wasser und Strom</li>
           <li>Telefon-, TV- und Internetanschluss mit eigenem WLAN (inkl. Gesprächskosten)</li>
-          <li>24h-Notrufknopf für absolute Sicherheit</li>
+          <li>24h-Notrufbereitschaft für absolute Sicherheit</li>
           <li>Technische Unterstützung für kleinere Reparaturen</li>
           <li>Concierge-Service, Montag bis Freitag, von 8 bis 17 Uhr</li>
           <li>Fensterreinigung (zweimal jährlich)</li>
@@ -152,7 +152,7 @@
 
           {{ partial:components/table/table class="mb-40 lg:mb-80" }}
 
-          {{ partial:components/table/thead }}
+          {{ partial:components/table/thead heading_rent="Basispaket/MT" }}
           
             {{ apartments }}
               {{ partial:components/table/trow filterable="true" number="{{ title }}" state="{{ state }}" rooms="{{ rooms }}" floor="{{ floor }}" }}
