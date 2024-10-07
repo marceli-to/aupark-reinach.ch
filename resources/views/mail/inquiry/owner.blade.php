@@ -1,6 +1,6 @@
 <x-mail::message>
   <div class="text-base pb-base">
-    Neuer Interessent scala-zuerich.ch
+    Neuer Interessent aupark-reinach.ch
   </div>
   <div class="text-base pb-base">
     <strong>Vorname</strong><br>
