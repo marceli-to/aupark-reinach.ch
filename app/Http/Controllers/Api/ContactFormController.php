@@ -20,6 +20,7 @@ class ContactFormController extends Controller
         'street',
         'location',
         'phone',
+        'message'
       ])
     );
 

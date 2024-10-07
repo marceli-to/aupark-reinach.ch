@@ -42,4 +42,10 @@
     {{ $data->interest_service }}
   </div>
   @endif
+  @if ($data->message)
+  <div class="text-base pb-base">
+    <strong>Nachricht</strong><br>
+    {{ $data->message }}
+  </div>
+  @endif
 </x-mail::message>
