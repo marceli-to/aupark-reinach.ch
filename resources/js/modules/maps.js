@@ -23,7 +23,7 @@ const initMap = () => {
         coordinates: [7.598589204108141,47.49374073675234]
       },
       properties: {
-        title: 'Wohnen im Aupark Reinach – Baselland',
+        title: 'Wohnen in Reinach, Baselland',
         description: ''
       }
     }]
